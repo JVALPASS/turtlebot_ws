@@ -1,6 +1,12 @@
-xhost local:root
-XAUTH=/tmp.docker.xauth
+#!/bin/bash
 
+# Allows local root to access the X server
+xhost local:root
+
+# Define the path for the X11 authority file
+XAUTH=/tmp/.docker.xauth
+
+# Run the Docker container with necessary environment variables and volume mounts for X11
 docker run -it \
     --name=ros2_tb3_dev_container \
     --env="DISPLAY=$DISPLAY" \
@@ -13,4 +19,4 @@ docker run -it \
     ros2_tb3 \
     bash
 
-echo "Done."
+echo "Container started."
