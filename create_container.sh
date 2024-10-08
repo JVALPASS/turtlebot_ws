@@ -6,6 +6,9 @@ xhost local:root
 # Define the path for the X11 authority file
 XAUTH=/tmp/.docker.xauth
 
+# Use the current directory as the host workspace directory
+HOST_WORKSPACE_DIR="$PWD/src"
+
 # Run the Docker container with necessary environment variables and volume mounts for X11
 docker run -it \
     --name=ros2_tb3_dev_container \
