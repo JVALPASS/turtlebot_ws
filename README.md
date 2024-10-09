@@ -56,7 +56,7 @@ This will save the map in the `maps/` directory as `myworld`. You can specify a 
 ## Load the Saved Map and Start Navigation
 To use the saved map for navigation, relaunch the navigation stack with the map parameter:
 ```bash
-ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true map:=maps/myworld.yaml
+ros2 launch nav2_bringup bringup_launch.py use_sim_time:=True map:=maps/my_world.yaml 
 ```
 Make sure to provide the path to the saved `.yaml` map file.
 
