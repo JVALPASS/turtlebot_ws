@@ -7,10 +7,12 @@ import tf_transformations
 def main():
     # --- Init
     rclpy.init()
+    
     nav = BasicNavigator()
 
     # --- Set initial pose
     q_x, q_y, q_z, q_w = tf_transformations.quaternion_from_euler(0.0, 0.0, 0.0)
+    initial_pose = PoseStamped()
     initial_pose.header.frame_id = 'map'
     initial_pose.header.stamp = nav.get_clock().now().to_msg()
     initial_pose.pose.position.x = 0.0
