@@ -7,7 +7,6 @@ import tf_transformations
 def create_pose_stamped(navigator: BasicNavigator, posistion_x, posistion_y, orientation_z):
     q_x, q_y, q_z, q_w = tf_transformations.quaternion_from_euler(0.0, 0.0, orientation_z)
     pose = PoseStamped()
-    pose = PoseStamped()
     pose.header.frame_id = 'map'
     pose.header.stamp = navigator.get_clock().now().to_msg()
     pose.pose.position.x = posistion_x
