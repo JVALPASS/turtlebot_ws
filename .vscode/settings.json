@@ -1,0 +1,10 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/vpassamano-iit.local/Desktop/Docker_Test_ROS/prova/turtlebot_ws/install/turtlebot3_py_navigation/lib/python3.10/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/vpassamano-iit.local/Desktop/Docker_Test_ROS/prova/turtlebot_ws/install/turtlebot3_py_navigation/lib/python3.10/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

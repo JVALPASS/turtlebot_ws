@@ -20,7 +20,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'set_initial_pose = turtlebot3_py_navigation.set_initial_pose:main'
+            'set_initial_pose = turtlebot3_py_navigation.set_initial_pose:main',
+            'nav2_to_point_goal = turtlebot3_py_navigation.nav2_to_point_goal:main',
+            'follow_waypoints = turtlebot3_py_navigation.follow_waypoints:main',
         ],
     },
 )
+
