@@ -49,7 +49,7 @@ Make sure to load the correct RViz configuration file if needed, or configure it
 ## Save the Map
 Once the mapping is complete, you can save the generated map using the `nav2_map_server` package:
 ```bash
-ros2 run nav2_map_server map_saver_cli -f maps/myworld
+ros2 run nav2_map_server map_saver_cli -f maps/my_world
 ```
 This will save the map in the `maps/` directory as `myworld`. You can specify a different path or filename if needed.
 
