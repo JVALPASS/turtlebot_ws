@@ -1,0 +1,46 @@
+running egg_info
+creating ../../build/turtlebot3_py_navigation/turtlebot3_py_navigation.egg-info
+writing ../../build/turtlebot3_py_navigation/turtlebot3_py_navigation.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlebot3_py_navigation/turtlebot3_py_navigation.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlebot3_py_navigation/turtlebot3_py_navigation.egg-info/entry_points.txt
+writing requirements to ../../build/turtlebot3_py_navigation/turtlebot3_py_navigation.egg-info/requires.txt
+writing top-level names to ../../build/turtlebot3_py_navigation/turtlebot3_py_navigation.egg-info/top_level.txt
+writing manifest file '../../build/turtlebot3_py_navigation/turtlebot3_py_navigation.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtlebot3_py_navigation/turtlebot3_py_navigation.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtlebot3_py_navigation/turtlebot3_py_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /app/TURTLEBOT_WS/build/turtlebot3_py_navigation/build
+creating /app/TURTLEBOT_WS/build/turtlebot3_py_navigation/build/lib
+creating /app/TURTLEBOT_WS/build/turtlebot3_py_navigation/build/lib/turtlebot3_py_navigation
+copying turtlebot3_py_navigation/navigation_helper.py -> /app/TURTLEBOT_WS/build/turtlebot3_py_navigation/build/lib/turtlebot3_py_navigation
+copying turtlebot3_py_navigation/__init__.py -> /app/TURTLEBOT_WS/build/turtlebot3_py_navigation/build/lib/turtlebot3_py_navigation
+copying turtlebot3_py_navigation/follow_waypoints.py -> /app/TURTLEBOT_WS/build/turtlebot3_py_navigation/build/lib/turtlebot3_py_navigation
+copying turtlebot3_py_navigation/set_initial_pose.py -> /app/TURTLEBOT_WS/build/turtlebot3_py_navigation/build/lib/turtlebot3_py_navigation
+copying turtlebot3_py_navigation/nav2_to_point_goal.py -> /app/TURTLEBOT_WS/build/turtlebot3_py_navigation/build/lib/turtlebot3_py_navigation
+running install
+running install_lib
+creating /app/TURTLEBOT_WS/install/turtlebot3_py_navigation/lib/python3.10/site-packages/turtlebot3_py_navigation
+copying /app/TURTLEBOT_WS/build/turtlebot3_py_navigation/build/lib/turtlebot3_py_navigation/navigation_helper.py -> /app/TURTLEBOT_WS/install/turtlebot3_py_navigation/lib/python3.10/site-packages/turtlebot3_py_navigation
+copying /app/TURTLEBOT_WS/build/turtlebot3_py_navigation/build/lib/turtlebot3_py_navigation/__init__.py -> /app/TURTLEBOT_WS/install/turtlebot3_py_navigation/lib/python3.10/site-packages/turtlebot3_py_navigation
+copying /app/TURTLEBOT_WS/build/turtlebot3_py_navigation/build/lib/turtlebot3_py_navigation/follow_waypoints.py -> /app/TURTLEBOT_WS/install/turtlebot3_py_navigation/lib/python3.10/site-packages/turtlebot3_py_navigation
+copying /app/TURTLEBOT_WS/build/turtlebot3_py_navigation/build/lib/turtlebot3_py_navigation/set_initial_pose.py -> /app/TURTLEBOT_WS/install/turtlebot3_py_navigation/lib/python3.10/site-packages/turtlebot3_py_navigation
+copying /app/TURTLEBOT_WS/build/turtlebot3_py_navigation/build/lib/turtlebot3_py_navigation/nav2_to_point_goal.py -> /app/TURTLEBOT_WS/install/turtlebot3_py_navigation/lib/python3.10/site-packages/turtlebot3_py_navigation
+byte-compiling /app/TURTLEBOT_WS/install/turtlebot3_py_navigation/lib/python3.10/site-packages/turtlebot3_py_navigation/navigation_helper.py to navigation_helper.cpython-310.pyc
+byte-compiling /app/TURTLEBOT_WS/install/turtlebot3_py_navigation/lib/python3.10/site-packages/turtlebot3_py_navigation/__init__.py to __init__.cpython-310.pyc
+byte-compiling /app/TURTLEBOT_WS/install/turtlebot3_py_navigation/lib/python3.10/site-packages/turtlebot3_py_navigation/follow_waypoints.py to follow_waypoints.cpython-310.pyc
+byte-compiling /app/TURTLEBOT_WS/install/turtlebot3_py_navigation/lib/python3.10/site-packages/turtlebot3_py_navigation/set_initial_pose.py to set_initial_pose.cpython-310.pyc
+byte-compiling /app/TURTLEBOT_WS/install/turtlebot3_py_navigation/lib/python3.10/site-packages/turtlebot3_py_navigation/nav2_to_point_goal.py to nav2_to_point_goal.cpython-310.pyc
+running install_data
+creating /app/TURTLEBOT_WS/install/turtlebot3_py_navigation/share/ament_index
+creating /app/TURTLEBOT_WS/install/turtlebot3_py_navigation/share/ament_index/resource_index
+creating /app/TURTLEBOT_WS/install/turtlebot3_py_navigation/share/ament_index/resource_index/packages
+copying resource/turtlebot3_py_navigation -> /app/TURTLEBOT_WS/install/turtlebot3_py_navigation/share/ament_index/resource_index/packages
+copying package.xml -> /app/TURTLEBOT_WS/install/turtlebot3_py_navigation/share/turtlebot3_py_navigation
+running install_egg_info
+Copying ../../build/turtlebot3_py_navigation/turtlebot3_py_navigation.egg-info to /app/TURTLEBOT_WS/install/turtlebot3_py_navigation/lib/python3.10/site-packages/turtlebot3_py_navigation-0.0.0-py3.10.egg-info
+running install_scripts
+Installing follow_waypoints script to /app/TURTLEBOT_WS/install/turtlebot3_py_navigation/lib/turtlebot3_py_navigation
+Installing nav2_to_point_goal script to /app/TURTLEBOT_WS/install/turtlebot3_py_navigation/lib/turtlebot3_py_navigation
+Installing set_initial_pose script to /app/TURTLEBOT_WS/install/turtlebot3_py_navigation/lib/turtlebot3_py_navigation
+writing list of installed files to '/app/TURTLEBOT_WS/build/turtlebot3_py_navigation/install.log'

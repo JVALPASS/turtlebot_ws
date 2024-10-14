@@ -1,0 +1,10 @@
+/usr/bin/ld: CMakeFiles/follow_waypoints.dir/src/follow_waypoints.cpp.o: in function `FollowWaypoints::send_next_goal()':
+follow_waypoints.cpp:(.text._ZN15FollowWaypoints14send_next_goalEv[_ZN15FollowWaypoints14send_next_goalEv]+0x481): undefined reference to `NavToPoseClient::send_goal(float, float, float)'
+/usr/bin/ld: CMakeFiles/follow_waypoints.dir/src/follow_waypoints.cpp.o: in function `FollowWaypoints::wait_for_goal_to_complete()':
+follow_waypoints.cpp:(.text._ZN15FollowWaypoints25wait_for_goal_to_completeEv[_ZN15FollowWaypoints25wait_for_goal_to_completeEv]+0x83): undefined reference to `NavToPoseClient::is_goal_done() const'
+/usr/bin/ld: CMakeFiles/follow_waypoints.dir/src/follow_waypoints.cpp.o: in function `void __gnu_cxx::new_allocator<NavToPoseClient>::construct<NavToPoseClient, rclcpp::NodeOptions&>(NavToPoseClient*, rclcpp::NodeOptions&)':
+follow_waypoints.cpp:(.text._ZN9__gnu_cxx13new_allocatorI15NavToPoseClientE9constructIS1_JRN6rclcpp11NodeOptionsEEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI15NavToPoseClientE9constructIS1_JRN6rclcpp11NodeOptionsEEEEvPT_DpOT0_]+0x47): undefined reference to `NavToPoseClient::NavToPoseClient(rclcpp::NodeOptions const&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/follow_waypoints.dir/build.make:213: follow_waypoints] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/follow_waypoints.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

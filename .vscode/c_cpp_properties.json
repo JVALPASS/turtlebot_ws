@@ -1,27 +1,27 @@
 {
-  "configurations": [
-      {
-          "name": "ROS 2",
-          "includePath": [
-              "${workspaceFolder}/**",
-              "/opt/ros/humble/include/**", // Path to ROS 2 headers
-              "/usr/include/**"
-          ],
-          "defines": [],
-          "compilerPath": "/usr/bin/g++",
-          "cStandard": "c11",
-          "cppStandard": "c++17",
-          "intelliSenseMode": "linux-gcc-x64",
-          "browse": {
-              "path": [
-                  "/opt/ros/humble/include",
-                  "/usr/include",
-                  "${workspaceFolder}"
-              ],
-              "limitSymbolsToIncludedHeaders": true,
-              "databaseFilename": ""
-          }
-      }
-  ],
-  "version": 4
-}
+    "configurations": [
+        {
+            "name": "ROS 2",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/ros/humble/include/**", // Path to ROS 2 headers
+                "/usr/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "browse": {
+                "path": [
+                    "/opt/ros/humble/include",
+                    "/usr/include",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+  }

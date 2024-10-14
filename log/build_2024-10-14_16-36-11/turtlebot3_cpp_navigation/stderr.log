@@ -1,0 +1,20 @@
+[01m[K/app/TURTLEBOT_WS/src/turtlebot3_cpp_navigation/src/follow_waypoints.cpp:[m[K In member function ‘[01m[Kvoid FollowWaypointsClient::result_callback(const rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::WrappedResult&)[m[K’:
+[01m[K/app/TURTLEBOT_WS/src/turtlebot3_cpp_navigation/src/follow_waypoints.cpp:62:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_goal[m[K’ was not declared in this scope
+   62 |             [01;31m[Ksend_goal[m[K(std::get<0>(next_waypoint), std::get<1>(next_waypoint), std::get<2>(next_waypoint));
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/app/TURTLEBOT_WS/src/turtlebot3_cpp_navigation/src/follow_waypoints.cpp:[m[K In member function ‘[01m[Kvoid FollowWaypointsClient::send_waypoints(const std::vector<std::tuple<float, float, float> >&)[m[K’:
+[01m[K/app/TURTLEBOT_WS/src/turtlebot3_cpp_navigation/src/follow_waypoints.cpp:86:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_goal[m[K’ was not declared in this scope
+   86 |     [01;31m[Ksend_goal[m[K(std::get<0>(first_waypoint), std::get<1>(first_waypoint), std::get<2>(first_waypoint));
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/app/TURTLEBOT_WS/src/turtlebot3_cpp_navigation/src/follow_waypoints.cpp:[m[K At global scope:
+[01m[K/app/TURTLEBOT_WS/src/turtlebot3_cpp_navigation/src/follow_waypoints.cpp:89:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid FollowWaypointsClient::send_goal(float, float, float)[m[K’
+   89 | void [01;31m[KFollowWaypointsClient[m[K::send_goal(float x, float y, float theta) {
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/app/TURTLEBOT_WS/src/turtlebot3_cpp_navigation/src/follow_waypoints.cpp:89:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid FollowWaypointsClient::send_goal(float, float, float)[m[K’
+In file included from [01m[K/app/TURTLEBOT_WS/src/turtlebot3_cpp_navigation/src/follow_waypoints.cpp:1[m[K:
+[01m[K/app/TURTLEBOT_WS/src/turtlebot3_cpp_navigation/src/follow_waypoints.hpp:31:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass FollowWaypointsClient[m[K’ defined here
+   31 | class [01;36m[KFollowWaypointsClient[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/follow_waypoints.dir/build.make:76: CMakeFiles/follow_waypoints.dir/src/follow_waypoints.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/follow_waypoints.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

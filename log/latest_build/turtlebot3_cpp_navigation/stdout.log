@@ -1,16 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target follow_waypoints[0m
+[ 50%] Built target nav2_to_point_goal
+[ 75%] [32mBuilding CXX object CMakeFiles/follow_waypoints.dir/src/follow_waypoints.cpp.o[0m
+[100%] [32m[1mLinking CXX executable follow_waypoints[0m
+[100%] Built target follow_waypoints
 -- Install configuration: ""
--- Up-to-date: /app/prova/turtlebot_ws/install/turtlebot3_cpp_navigation/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cpp_navigation
--- Up-to-date: /app/prova/turtlebot_ws/install/turtlebot3_cpp_navigation/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cpp_navigation
--- Up-to-date: /app/prova/turtlebot_ws/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/environment/ament_prefix_path.sh
--- Up-to-date: /app/prova/turtlebot_ws/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/environment/ament_prefix_path.dsv
--- Up-to-date: /app/prova/turtlebot_ws/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/environment/path.sh
--- Up-to-date: /app/prova/turtlebot_ws/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/environment/path.dsv
--- Up-to-date: /app/prova/turtlebot_ws/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/local_setup.bash
--- Up-to-date: /app/prova/turtlebot_ws/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/local_setup.sh
--- Up-to-date: /app/prova/turtlebot_ws/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/local_setup.zsh
--- Up-to-date: /app/prova/turtlebot_ws/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/local_setup.dsv
--- Up-to-date: /app/prova/turtlebot_ws/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/package.dsv
--- Up-to-date: /app/prova/turtlebot_ws/install/turtlebot3_cpp_navigation/share/ament_index/resource_index/packages/turtlebot3_cpp_navigation
--- Up-to-date: /app/prova/turtlebot_ws/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/cmake/turtlebot3_cpp_navigationConfig.cmake
--- Up-to-date: /app/prova/turtlebot_ws/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/cmake/turtlebot3_cpp_navigationConfig-version.cmake
--- Up-to-date: /app/prova/turtlebot_ws/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/package.xml
+-- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/lib/turtlebot3_cpp_navigation/nav2_to_point_goal
+-- Installing: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/lib/turtlebot3_cpp_navigation/follow_waypoints
+-- Set runtime path of "/app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/lib/turtlebot3_cpp_navigation/follow_waypoints" to ""
+-- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cpp_navigation
+-- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cpp_navigation
+-- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/environment/ament_prefix_path.sh
+-- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/environment/ament_prefix_path.dsv
+-- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/environment/path.sh
+-- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/environment/path.dsv
+-- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/local_setup.bash
+-- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/local_setup.sh
+-- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/local_setup.zsh
+-- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/local_setup.dsv
+-- Installing: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/package.dsv
+-- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/ament_index/resource_index/packages/turtlebot3_cpp_navigation
+-- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/cmake/turtlebot3_cpp_navigationConfig.cmake
+-- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/cmake/turtlebot3_cpp_navigationConfig-version.cmake
+-- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/package.xml

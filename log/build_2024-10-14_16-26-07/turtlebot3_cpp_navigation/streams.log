@@ -1,0 +1,56 @@
+[0.018s] Invoking command in '/app/TURTLEBOT_WS/build/turtlebot3_cpp_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /app/TURTLEBOT_WS/build/turtlebot3_cpp_navigation -- -j16 -l16
+[0.037s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.119s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.137s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.139s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.142s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.148s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.157s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.179s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.179s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.258s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.289s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.308s] -- Found nav2_msgs: 1.1.16 (/opt/ros/humble/share/nav2_msgs/cmake)
+[0.344s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[0.346s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.348s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.349s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.382s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.428s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.428s] -- Configured cppcheck include dirs: /app/TURTLEBOT_WS/src/turtlebot3_cpp_navigation/include
+[0.428s] -- Configured cppcheck exclude dirs and/or files: 
+[0.428s] -- Added test 'lint_cmake' to check CMake code style
+[0.429s] -- Added test 'uncrustify' to check C / C++ code style
+[0.429s] -- Configured uncrustify additional arguments: 
+[0.429s] -- Added test 'xmllint' to check XML markup files
+[0.429s] -- Configuring done
+[0.441s] -- Generating done
+[0.442s] -- Build files have been written to: /app/TURTLEBOT_WS/build/turtlebot3_cpp_navigation
+[0.462s] [35m[1mConsolidate compiler generated dependencies of target follow_waypoints[0m
+[0.462s] [35m[1mConsolidate compiler generated dependencies of target nav2_to_point_goal[0m
+[0.477s] [ 50%] Built target nav2_to_point_goal
+[0.477s] [ 75%] [32mBuilding CXX object CMakeFiles/follow_waypoints.dir/src/follow_waypoints.cpp.o[0m
+[2.991s] [100%] [32m[1mLinking CXX executable follow_waypoints[0m
+[3.096s] [100%] Built target follow_waypoints
+[3.107s] Invoked command in '/app/TURTLEBOT_WS/build/turtlebot3_cpp_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /app/TURTLEBOT_WS/build/turtlebot3_cpp_navigation -- -j16 -l16
+[3.132s] Invoking command in '/app/TURTLEBOT_WS/build/turtlebot3_cpp_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /app/TURTLEBOT_WS/build/turtlebot3_cpp_navigation
+[3.137s] -- Install configuration: ""
+[3.145s] -- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/lib/turtlebot3_cpp_navigation/nav2_to_point_goal
+[3.145s] -- Installing: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/lib/turtlebot3_cpp_navigation/follow_waypoints
+[3.146s] -- Set runtime path of "/app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/lib/turtlebot3_cpp_navigation/follow_waypoints" to ""
+[3.146s] -- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cpp_navigation
+[3.146s] -- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cpp_navigation
+[3.146s] -- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/environment/ament_prefix_path.sh
+[3.146s] -- Installing: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/environment/ament_prefix_path.dsv
+[3.146s] -- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/environment/path.sh
+[3.146s] -- Installing: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/environment/path.dsv
+[3.146s] -- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/local_setup.bash
+[3.146s] -- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/local_setup.sh
+[3.146s] -- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/local_setup.zsh
+[3.146s] -- Installing: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/local_setup.dsv
+[3.146s] -- Installing: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/package.dsv
+[3.147s] -- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/ament_index/resource_index/packages/turtlebot3_cpp_navigation
+[3.147s] -- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/cmake/turtlebot3_cpp_navigationConfig.cmake
+[3.147s] -- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/cmake/turtlebot3_cpp_navigationConfig-version.cmake
+[3.147s] -- Up-to-date: /app/TURTLEBOT_WS/install/turtlebot3_cpp_navigation/share/turtlebot3_cpp_navigation/package.xml
+[3.148s] Invoked command in '/app/TURTLEBOT_WS/build/turtlebot3_cpp_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /app/TURTLEBOT_WS/build/turtlebot3_cpp_navigation

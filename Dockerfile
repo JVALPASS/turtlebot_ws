@@ -10,15 +10,6 @@ RUN apt-get update && apt-get install -y \
     ros-humble-slam-toolbox \
     ros-humble-nav2-simple-commander \
     ros-humble-tf-transformations -y \
-    ros-humble-ros2-control -y \
-    ros-humble-ros2-controllers -y \
-    ros-humble-xacro \
-    ros-humble-ros-gz* -y \
-    ros-humble-*-ros2-control -y \
-    ros-humble-joint-state-publisher-gui \
-    ros-humble-robot-localization -y \
-    ros-humble-joy \
-    ros-humble-joy-teleop -y \
     python3-transforms3d \
     python3-colcon-common-extensions \
     terminator \

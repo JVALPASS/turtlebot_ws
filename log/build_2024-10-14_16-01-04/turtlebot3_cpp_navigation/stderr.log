@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/follow_waypoints.dir/src/nav2_to_point_goal.cpp.o: in function `main':
+nav2_to_point_goal.cpp:(.text+0x1dff): multiple definition of `main'; CMakeFiles/follow_waypoints.dir/src/follow_waypoints.cpp.o:follow_waypoints.cpp:(.text+0x0): first defined here
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/follow_waypoints.dir/build.make:229: follow_waypoints] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/follow_waypoints.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

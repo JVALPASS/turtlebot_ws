@@ -1,0 +1,46 @@
+[0.010s] Invoking command in '/app/TURTLEBOT_WS/build/turtlebot3_cpp_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /app/TURTLEBOT_WS/build/turtlebot3_cpp_navigation -- -j16 -l16
+[0.026s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.105s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.149s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.154s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.163s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.176s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.190s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.230s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.233s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.300s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.321s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.352s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.361s] -- Looking for pthread.h
+[0.412s] -- Looking for pthread.h - found
+[0.412s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.462s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.463s] -- Found Threads: TRUE  
+[0.509s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.540s] -- Found nav2_msgs: 1.1.16 (/opt/ros/humble/share/nav2_msgs/cmake)
+[0.588s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[0.599s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.612s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.613s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.613s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.660s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.701s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.701s] -- Configured cppcheck include dirs: /app/TURTLEBOT_WS/src/turtlebot3_cpp_navigation/include
+[0.701s] -- Configured cppcheck exclude dirs and/or files: 
+[0.702s] -- Added test 'lint_cmake' to check CMake code style
+[0.702s] -- Added test 'uncrustify' to check C / C++ code style
+[0.702s] -- Configured uncrustify additional arguments: 
+[0.702s] -- Added test 'xmllint' to check XML markup files
+[0.703s] -- Configuring done
+[0.711s] -- Generating done
+[0.712s] -- Build files have been written to: /app/TURTLEBOT_WS/build/turtlebot3_cpp_navigation
+[0.736s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_to_point_goal.dir/src/nav2_to_point_goal.cpp.o[0m
+[0.911s] In file included from [01m[K/app/TURTLEBOT_WS/src/turtlebot3_cpp_navigation/src/nav2_to_point_goal.cpp:21[m[K:
+[0.911s] [01m[K/app/TURTLEBOT_WS/src/turtlebot3_cpp_navigation/src/nav2_to_point_goal.hpp:26:10:[m[K [01;31m[Kfatal error: [m[Kt3_action_msg/action/move.hpp: No such file or directory
+[0.911s]    26 | #include [01;31m[K"t3_action_msg/action/move.hpp"[m[K
+[0.911s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.911s] compilation terminated.
+[0.921s] gmake[2]: *** [CMakeFiles/nav2_to_point_goal.dir/build.make:76: CMakeFiles/nav2_to_point_goal.dir/src/nav2_to_point_goal.cpp.o] Error 1
+[0.921s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_to_point_goal.dir/all] Error 2
+[0.921s] gmake: *** [Makefile:146: all] Error 2
+[0.922s] Invoked command in '/app/TURTLEBOT_WS/build/turtlebot3_cpp_navigation' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /app/TURTLEBOT_WS/build/turtlebot3_cpp_navigation -- -j16 -l16

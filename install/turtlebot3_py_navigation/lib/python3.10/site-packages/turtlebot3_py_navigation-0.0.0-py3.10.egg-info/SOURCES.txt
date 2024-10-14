@@ -13,4 +13,7 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 turtlebot3_py_navigation/__init__.py
+turtlebot3_py_navigation/follow_waypoints.py
+turtlebot3_py_navigation/nav2_to_point_goal.py
+turtlebot3_py_navigation/navigation_helper.py
 turtlebot3_py_navigation/set_initial_pose.py

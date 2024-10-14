@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target follow_waypoints[0m
+[ 50%] Built target nav2_to_point_goal
+[ 75%] [32mBuilding CXX object CMakeFiles/follow_waypoints.dir/src/follow_waypoints.cpp.o[0m

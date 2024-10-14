@@ -1,0 +1,23 @@
+[0.392s] Invoking command in '/app/TURTLEBOT_WS/src/turtlebot3_py_navigation': PYTHONPATH=/app/TURTLEBOT_WS/build/turtlebot3_py_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/TURTLEBOT_WS/install/turtlebot3_py_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_py_navigation build --build-base /app/TURTLEBOT_WS/build/turtlebot3_py_navigation/build install --record /app/TURTLEBOT_WS/build/turtlebot3_py_navigation/install.log --single-version-externally-managed install_data
+[0.541s] running egg_info
+[0.541s] writing ../../build/turtlebot3_py_navigation/turtlebot3_py_navigation.egg-info/PKG-INFO
+[0.541s] writing dependency_links to ../../build/turtlebot3_py_navigation/turtlebot3_py_navigation.egg-info/dependency_links.txt
+[0.541s] writing entry points to ../../build/turtlebot3_py_navigation/turtlebot3_py_navigation.egg-info/entry_points.txt
+[0.541s] writing requirements to ../../build/turtlebot3_py_navigation/turtlebot3_py_navigation.egg-info/requires.txt
+[0.541s] writing top-level names to ../../build/turtlebot3_py_navigation/turtlebot3_py_navigation.egg-info/top_level.txt
+[0.542s] reading manifest file '../../build/turtlebot3_py_navigation/turtlebot3_py_navigation.egg-info/SOURCES.txt'
+[0.543s] writing manifest file '../../build/turtlebot3_py_navigation/turtlebot3_py_navigation.egg-info/SOURCES.txt'
+[0.543s] running build
+[0.543s] running build_py
+[0.543s] running install
+[0.544s] running install_lib
+[0.544s] running install_data
+[0.544s] running install_egg_info
+[0.546s] removing '/app/TURTLEBOT_WS/install/turtlebot3_py_navigation/lib/python3.10/site-packages/turtlebot3_py_navigation-0.0.0-py3.10.egg-info' (and everything under it)
+[0.546s] Copying ../../build/turtlebot3_py_navigation/turtlebot3_py_navigation.egg-info to /app/TURTLEBOT_WS/install/turtlebot3_py_navigation/lib/python3.10/site-packages/turtlebot3_py_navigation-0.0.0-py3.10.egg-info
+[0.546s] running install_scripts
+[0.561s] Installing follow_waypoints script to /app/TURTLEBOT_WS/install/turtlebot3_py_navigation/lib/turtlebot3_py_navigation
+[0.561s] Installing nav2_to_point_goal script to /app/TURTLEBOT_WS/install/turtlebot3_py_navigation/lib/turtlebot3_py_navigation
+[0.561s] Installing set_initial_pose script to /app/TURTLEBOT_WS/install/turtlebot3_py_navigation/lib/turtlebot3_py_navigation
+[0.562s] writing list of installed files to '/app/TURTLEBOT_WS/build/turtlebot3_py_navigation/install.log'
+[0.577s] Invoked command in '/app/TURTLEBOT_WS/src/turtlebot3_py_navigation' returned '0': PYTHONPATH=/app/TURTLEBOT_WS/build/turtlebot3_py_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/TURTLEBOT_WS/install/turtlebot3_py_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_py_navigation build --build-base /app/TURTLEBOT_WS/build/turtlebot3_py_navigation/build install --record /app/TURTLEBOT_WS/build/turtlebot3_py_navigation/install.log --single-version-externally-managed install_data

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /app/prova/turtlebot_ws/src/turtlebot3_cpp_navigation
+CMAKE_SOURCE_DIR = /app/TURTLEBOT_WS/src/turtlebot3_cpp_navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /app/prova/turtlebot_ws/build/turtlebot3_cpp_navigation
+CMAKE_BINARY_DIR = /app/TURTLEBOT_WS/build/turtlebot3_cpp_navigation
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /app/prova/turtlebot_ws/build/turtlebot3_cpp_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /app/prova/turtlebot_ws/src/turtlebot3_cpp_navigation /app/prova/turtlebot_ws/src/turtlebot3_cpp_navigation /app/prova/turtlebot_ws/build/turtlebot3_cpp_navigation /app/prova/turtlebot_ws/build/turtlebot3_cpp_navigation /app/prova/turtlebot_ws/build/turtlebot3_cpp_navigation/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /app/TURTLEBOT_WS/build/turtlebot3_cpp_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /app/TURTLEBOT_WS/src/turtlebot3_cpp_navigation /app/TURTLEBOT_WS/src/turtlebot3_cpp_navigation /app/TURTLEBOT_WS/build/turtlebot3_cpp_navigation /app/TURTLEBOT_WS/build/turtlebot3_cpp_navigation /app/TURTLEBOT_WS/build/turtlebot3_cpp_navigation/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

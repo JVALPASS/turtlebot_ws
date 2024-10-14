@@ -1,0 +1,2 @@
+Invoking command in '/app/TURTLEBOT_WS/build/turtlebot3_cpp_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /app/TURTLEBOT_WS/build/turtlebot3_cpp_navigation -- -j16 -l16
+Invoked command in '/app/TURTLEBOT_WS/build/turtlebot3_cpp_navigation' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /app/TURTLEBOT_WS/build/turtlebot3_cpp_navigation -- -j16 -l16
